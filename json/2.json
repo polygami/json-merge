@@ -1,0 +1,27 @@
+{
+  "turtles": {
+    "Leonardo": {
+      "Color": "Blue",
+      "Weapon": "Katana"
+    },
+    "Donatello": {
+      "Color": "Purple",
+      "Weapon": "Bō"
+    }
+  },
+  "power-rangers": {
+    "Kimberly": {
+      "Color": "Pink",
+      "Zord": "Pterodactyl"
+    },
+    "Billy": {
+      "Color": "Blue",
+      "Zord": "Triceratops "
+    },
+    "Tommy": {
+      "Color": "White",
+      "Weapon": "Sword",
+      "Zord": "Dragon"
+    }
+  }
+}

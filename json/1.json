@@ -1,0 +1,26 @@
+{
+  "turtles": {
+    "Michelangelo": {
+      "Color": "Orange",
+      "Weapon": "Nunchaku"
+    },
+    "Raphael": {
+      "Color": "Red",
+      "Weapon": "Sai"
+    }
+  },
+  "power-rangers": {
+    "Kimberly": {
+      "Color": "Pink",
+      "Weapon": "Bow and Arrow"
+    },
+    "Billy": {
+      "Color": "Blue",
+      "Weapon": "Staff"
+    },
+    "Tommy": {
+      "Color": "Green",
+      "Weapon": "Sword"
+    }
+  }
+}
