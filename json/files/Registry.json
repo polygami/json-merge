@@ -1,0 +1,668 @@
+{
+  "RESERVED_TYPE_NAME": "CGI::Utilities::Registry",
+  "_idEntries": {
+    "1645770537695008500": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Managers::WidgetManager",
+      "_widgetRegistryIDs": []
+    },
+    "1646043219280195600": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Managers::EventManager",
+      "_eventRegistryIDs": []
+    },
+    "1646043219280294500": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Managers::FunctionManager",
+      "_functionRegistryIDs": []
+    },
+    "1646043219280367000": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Managers::VariableManager",
+      "_variableRegistryIDs": []
+    },
+    "1646043219415606400": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Managers::NodeManager",
+      "_arrivalGateRegistryIDs": [],
+      "_connectionRegistryID2GateRegistryIDs": {},
+      "_connectionRegistryID2StrapRegistryIDs": {},
+      "_departureGateRegistryIDs": [
+        1646043219416457500
+      ],
+      "_functionRegistryID": 0,
+      "_gateRegistryID2NodeRegistryID": {
+        "1646043219416457500": 1646043219415722800
+      },
+      "_nodeRegistryID2GateRegistryIDs": {
+        "1646043219415722800": [
+          1646043219416457500
+        ]
+      },
+      "_nodeRegistryIDs": [
+        1646043219415722800
+      ],
+      "_pulseGateRegistryIDs": [
+        1646043219416457500
+      ],
+      "_sceneCenter": "(-214 179)",
+      "_sceneID": 0,
+      "_strapRegistryIDs": [],
+      "_widgetRegistryID": 0
+    },
+    "1646043219415722800": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Nodes::OnProjectInitialize",
+      "_flags": "Incari::LogicEditor::Node::Flags::NoPulsePassThrough",
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulsePassThrough": false,
+      "_logicID": 1646043219415682900,
+      "_name": "On Initialize",
+      "_position": "(0 0)"
+    },
+    "1646043219416457500": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Pulse",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646043219416433000,
+      "_logicNodeReflectionGetterName": "onPulse()",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": ""
+    },
+    "1646043219419409400": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": true,
+      "logicID": 1646043219416433000,
+      "logicNodeID": 1646043219415682900,
+      "logicNodeReflectionGetterName": "onPulse()",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646043219423419500": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Nodes::OnProjectInitialize",
+      "_functionLogicID": 0,
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulseOnlyMode": false,
+      "_logicID": 1646043219415682900,
+      "_sceneLogicID": "",
+      "_widgetLogicID": 0
+    },
+    "1646043219877510600": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Managers::NodeManager",
+      "_arrivalGateRegistryIDs": [
+        1646214028318907400,
+        1646214028326704700
+      ],
+      "_connectionRegistryID2GateRegistryIDs": {
+        "1646214036022954900": [
+          1646214008372909300,
+          1646214028318907400
+        ]
+      },
+      "_connectionRegistryID2StrapRegistryIDs": {
+        "1646214036022954900": []
+      },
+      "_departureGateRegistryIDs": [
+        1646043219878843500,
+        1646043219887658500,
+        1646214008372909300,
+        1646214008376557200,
+        1646214008376599800,
+        1646214008376633100,
+        1646214008376670600,
+        1646214028318946700,
+        1646214028330258000,
+        1646214028330341200,
+        1646214028330401100,
+        1646214028330461600
+      ],
+      "_functionRegistryID": 0,
+      "_gateRegistryID2NodeRegistryID": {
+        "1646043219878843500": 1646043219877950300,
+        "1646043219887658500": 1646043219886690000,
+        "1646214008372909300": 1646214008204477700,
+        "1646214008376557200": 1646214008204477700,
+        "1646214008376599800": 1646214008204477700,
+        "1646214008376633100": 1646214008204477700,
+        "1646214008376670600": 1646214008204477700,
+        "1646214028318907400": 1646214028142289200,
+        "1646214028318946700": 1646214028142289200,
+        "1646214028326704700": 1646214028142289200,
+        "1646214028330258000": 1646214028142289200,
+        "1646214028330341200": 1646214028142289200,
+        "1646214028330401100": 1646214028142289200,
+        "1646214028330461600": 1646214028142289200
+      },
+      "_nodeRegistryID2GateRegistryIDs": {
+        "1646043219877950300": [
+          1646043219878843500
+        ],
+        "1646043219886690000": [
+          1646043219887658500
+        ],
+        "1646214008204477700": [
+          1646214008372909300,
+          1646214008376557200,
+          1646214008376599800,
+          1646214008376633100,
+          1646214008376670600
+        ],
+        "1646214028142289200": [
+          1646214028318907400,
+          1646214028318946700,
+          1646214028326704700,
+          1646214028330258000,
+          1646214028330341200,
+          1646214028330401100,
+          1646214028330461600
+        ]
+      },
+      "_nodeRegistryIDs": [
+        1646043219877950300,
+        1646043219886690000,
+        1646214008204477700,
+        1646214028142289200
+      ],
+      "_pulseGateRegistryIDs": [
+        1646043219878843500,
+        1646043219887658500,
+        1646214008372909300,
+        1646214028318907400,
+        1646214028318946700
+      ],
+      "_sceneCenter": "(10 10)",
+      "_sceneID": 1646043216513573200,
+      "_strapRegistryIDs": [],
+      "_widgetRegistryID": 0
+    },
+    "1646043219877950300": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Nodes::OnSceneHide",
+      "_flags": "",
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulsePassThrough": false,
+      "_logicID": 1646043219877920900,
+      "_name": "On Scene Hide",
+      "_position": "(0 0)"
+    },
+    "1646043219878843500": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Pulse",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646043219878820500,
+      "_logicNodeReflectionGetterName": "onPulse()",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": ""
+    },
+    "1646043219882057700": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": true,
+      "logicID": 1646043219878820500,
+      "logicNodeID": 1646043219877920900,
+      "logicNodeReflectionGetterName": "onPulse()",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646043219886088500": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Nodes::OnSceneHide",
+      "_functionLogicID": 0,
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulseOnlyMode": false,
+      "_logicID": 1646043219877920900,
+      "_sceneID": 1646043216513573200,
+      "_sceneLogicID": "",
+      "_widgetLogicID": 0
+    },
+    "1646043219886690000": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Nodes::OnSceneShow",
+      "_flags": "",
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulsePassThrough": false,
+      "_logicID": 1646043219886632500,
+      "_name": "On Scene Show",
+      "_position": "(225 0)"
+    },
+    "1646043219887658500": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Pulse",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646043219887635700,
+      "_logicNodeReflectionGetterName": "onPulse()",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": ""
+    },
+    "1646043219890154200": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": true,
+      "logicID": 1646043219887635700,
+      "logicNodeID": 1646043219886632500,
+      "logicNodeReflectionGetterName": "onPulse()",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646043219894126300": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Nodes::OnSceneShow",
+      "_functionLogicID": 0,
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulseOnlyMode": false,
+      "_logicID": 1646043219886632500,
+      "_sceneID": 1646043216513573200,
+      "_sceneLogicID": "",
+      "_widgetLogicID": 0
+    },
+    "1646214008204477700": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Nodes::OnKeyPress",
+      "_flags": "",
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulsePassThrough": false,
+      "_isRepeatEnabled": false,
+      "_key": "CGI::Utilities::Inputs::Key::A",
+      "_logicID": 1646214008204114700,
+      "_name": "On Key Press: A",
+      "_position": "(-855 0)"
+    },
+    "1646214008372909300": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Pulse",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214008372860200,
+      "_logicNodeReflectionGetterName": "onPulse()",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": ""
+    },
+    "1646214008376336400": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": true,
+      "logicID": 1646214008372860200,
+      "logicNodeID": 1646214008204114700,
+      "logicNodeReflectionGetterName": "onPulse()",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214008376557200": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Bool",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214008376536500,
+      "_logicNodeReflectionGetterName": "_isAlt",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": "Is Alt"
+    },
+    "1646214008376599800": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Bool",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214008376584600,
+      "_logicNodeReflectionGetterName": "_isCtrl",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": "Is Control"
+    },
+    "1646214008376633100": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Bool",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214008376618700,
+      "_logicNodeReflectionGetterName": "_isShift",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": "Is Shift"
+    },
+    "1646214008376670600": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Bool",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214008376657500,
+      "_logicNodeReflectionGetterName": "_isRepeat",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": "Is Repeated"
+    },
+    "1646214008380283600": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": false,
+      "logicID": 1646214008376536500,
+      "logicNodeID": 1646214008204114700,
+      "logicNodeReflectionGetterName": "_isAlt",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214008384227300": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": false,
+      "logicID": 1646214008376584600,
+      "logicNodeID": 1646214008204114700,
+      "logicNodeReflectionGetterName": "_isCtrl",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214008388259400": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": false,
+      "logicID": 1646214008376618700,
+      "logicNodeID": 1646214008204114700,
+      "logicNodeReflectionGetterName": "_isShift",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214008392264200": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": false,
+      "logicID": 1646214008376657500,
+      "logicNodeID": 1646214008204114700,
+      "logicNodeReflectionGetterName": "_isRepeat",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214008396512900": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Nodes::OnKeyPress",
+      "_functionLogicID": 0,
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulseOnlyMode": false,
+      "_isRepeatEnabled": false,
+      "_key": "CGI::Utilities::Inputs::Key::A",
+      "_logicID": 1646214008204114700,
+      "_sceneID": 1646043216513573200,
+      "_sceneLogicID": "",
+      "_widgetLogicID": 0
+    },
+    "1646214028142289200": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Nodes::AnimationPlay",
+      "_animationAssetID": 0,
+      "_animationID": 0,
+      "_animationName": "",
+      "_flags": "Incari::LogicEditor::Node::Flags::NoNameEdit",
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulsePassThrough": false,
+      "_logicID": 1646214028142110800,
+      "_name": "Play Animation",
+      "_position": "(-465 -30)"
+    },
+    "1646214028318907400": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Pulse",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": true,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214028318858800,
+      "_logicNodeReflectionGetterName": "",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "Pulse()",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": ""
+    },
+    "1646214028318946700": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Pulse",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214028318931200,
+      "_logicNodeReflectionGetterName": "onPulse()",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": ""
+    },
+    "1646214028321901600": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": true,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": true,
+      "isPulse": true,
+      "logicID": 1646214028318858800,
+      "logicNodeID": 1646214028142110800,
+      "logicNodeReflectionGetterName": "",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "Pulse()",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214028326079600": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": true,
+      "logicID": 1646214028318931200,
+      "logicNodeID": 1646214028142110800,
+      "logicNodeReflectionGetterName": "onPulse()",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214028326704700": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::CustomID",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214028326667100,
+      "_logicNodeReflectionGetterName": "",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "_animationInstanceID",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": "Instance ID"
+    },
+    "1646214028330025700": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": true,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": false,
+      "logicID": 1646214028326667100,
+      "logicNodeID": 1646214028142110800,
+      "logicNodeReflectionGetterName": "",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "_animationInstanceID",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214028330258000": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::CustomID",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214028330221500,
+      "_logicNodeReflectionGetterName": "_animationInstanceID",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": "Instance ID"
+    },
+    "1646214028330341200": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Pulse",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214028330319000,
+      "_logicNodeReflectionGetterName": "onStart",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": "OnPlay"
+    },
+    "1646214028330401100": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Pulse",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214028330381000,
+      "_logicNodeReflectionGetterName": "onStop",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": "OnPause"
+    },
+    "1646214028330461600": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Gate",
+      "_dataType": "Incari::Data::DataType::Pulse",
+      "_isLogicNodeReflectionGetterFunction": false,
+      "_isLogicNodeReflectionSetterFunction": false,
+      "_isNameEditable": false,
+      "_isVisible": true,
+      "_logicID": 1646214028330442000,
+      "_logicNodeReflectionGetterName": "onEnd",
+      "_logicNodeReflectionGetterParameter": "",
+      "_logicNodeReflectionSetterName": "",
+      "_logicNodeReflectionSetterParameter": "",
+      "_name": "OnStop"
+    },
+    "1646214028333917700": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": false,
+      "logicID": 1646214028330221500,
+      "logicNodeID": 1646214028142110800,
+      "logicNodeReflectionGetterName": "_animationInstanceID",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214028337887600": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": true,
+      "logicID": 1646214028330319000,
+      "logicNodeID": 1646214028142110800,
+      "logicNodeReflectionGetterName": "onStart",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214028341896800": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": true,
+      "logicID": 1646214028330381000,
+      "logicNodeID": 1646214028142110800,
+      "logicNodeReflectionGetterName": "onStop",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214028345852200": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Gate",
+      "isArrival": false,
+      "isLogicNodeReflectionGetterFunction": false,
+      "isLogicNodeReflectionSetterFunction": false,
+      "isPulse": true,
+      "logicID": 1646214028330442000,
+      "logicNodeID": 1646214028142110800,
+      "logicNodeReflectionGetterName": "onEnd",
+      "logicNodeReflectionGetterParameter": "",
+      "logicNodeReflectionSetterName": "",
+      "logicNodeReflectionSetterParameter": ""
+    },
+    "1646214028349964400": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Nodes::AnimationPlay",
+      "_animationAssetID": 0,
+      "_animationID": 0,
+      "_animationInstanceID": 42,
+      "_functionLogicID": 0,
+      "_isActive": true,
+      "_isContextRestoring": false,
+      "_isPulseOnlyMode": false,
+      "_logicID": 1646214028142110800,
+      "_objectIDMappings": {},
+      "_sceneLogicID": "",
+      "_widgetLogicID": 0
+    },
+    "1646214036022954900": {
+      "RESERVED_TYPE_NAME": "Incari::LogicEditor::Connection",
+      "_isActive": true,
+      "_logicID": 1646214036022852600
+    },
+    "1646214036027080500": {
+      "RESERVED_TYPE_NAME": "Incari::Logic::Connection",
+      "isActive": true,
+      "logicArrivalGateID": 1646214028318858800,
+      "logicDepartureGateID": 1646214008372860200,
+      "logicID": 1646214036022852600
+    }
+  }
+}

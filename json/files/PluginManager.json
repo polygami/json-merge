@@ -1,0 +1,7 @@
+[
+  {
+    "RESERVED_TYPE_NAME": "IncariCore::PluginManager::PluginItem",
+    "isActivated": true,
+    "rootPath": "Communication/Serial"
+  }
+]

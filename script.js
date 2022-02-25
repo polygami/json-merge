@@ -5,7 +5,7 @@ const debug = document.getElementById('debug');
 
 inputElement.addEventListener('change', handleFiles, false);
 
-async function handleFiles() {
+function handleFiles() {
   const fileList = this.files;
   console.log(Array.from(fileList));
 
@@ -14,8 +14,14 @@ async function handleFiles() {
     file
       .text()
       .then(processFiles)
+      .then(() => {
+        if (i === fileList.length - 1) {
+          saveFile('output.json', JSON.stringify(resultObj));
+        }
+      })
       .catch((err) => {
         console.error(result);
+        reject();
       });
   }
 }

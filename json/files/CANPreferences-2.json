@@ -1,0 +1,8 @@
+{
+  "RESERVED_TYPE_NAME": "Incari::CANPreferences::Preferences",
+  "_baudrate": "BAUD_500K",
+  "_channelName": "USBBUS1",
+  "_dbcAssetID": 0,
+  "_interfaceName": "can0",
+  "_isAutostart": true
+}
